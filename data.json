@@ -1,0 +1,50 @@
+{
+    "update_time": "2025-12-17 08:37",
+    "papers": [
+        {
+            "title": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+            "link": "https://arxiv.org/pdf/2512.14698v1",
+            "authors": "Jun Zhang, Teng Wang, Yuying Ge",
+            "ai_summary": "总结生成失败，请查看原文。",
+            "category": "Artificial Intelligence",
+            "id": "2512.14698v1",
+            "date": "2025-12-16"
+        },
+        {
+            "title": "Spherical Leech Quantization for Visual Tokenization and Generation",
+            "link": "https://arxiv.org/pdf/2512.14697v1",
+            "authors": "Yue Zhao, Hanwen Jiang, Zhenlin Xu",
+            "ai_summary": "总结生成失败，请查看原文。",
+            "category": "Artificial Intelligence",
+            "id": "2512.14697v1",
+            "date": "2025-12-16"
+        },
+        {
+            "title": "Universal Reasoning Model",
+            "link": "https://arxiv.org/pdf/2512.14693v1",
+            "authors": "Zitian Gao, Lynx Chen, Yihao Xiao",
+            "ai_summary": "总结生成失败，请查看原文。",
+            "category": "Artificial Intelligence",
+            "id": "2512.14693v1",
+            "date": "2025-12-16"
+        },
+        {
+            "title": "Native and Compact Structured Latents for 3D Generation",
+            "link": "https://arxiv.org/pdf/2512.14692v1",
+            "authors": "Jianfeng Xiang, Xiaoxue Chen, Sicheng Xu",
+            "ai_summary": "总结生成失败，请查看原文。",
+            "category": "Artificial Intelligence",
+            "id": "2512.14692v1",
+            "date": "2025-12-16"
+        },
+        {
+            "title": "CHIP: Adaptive Compliance for Humanoid Control through Hindsight Perturbation",
+            "link": "https://arxiv.org/pdf/2512.14689v1",
+            "authors": "Sirui Chen, Zi-ang Cao, Zhengyi Luo",
+            "ai_summary": "总结生成失败，请查看原文。",
+            "category": "Artificial Intelligence",
+            "id": "2512.14689v1",
+            "date": "2025-12-16"
+        }
+    ]
+}
