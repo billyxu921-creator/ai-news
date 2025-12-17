@@ -1,0 +1,27 @@
+name: Daily Update
+on:
+  schedule:
+    - cron: '0 1 * * *' # 北京时间每天上午9点
+  workflow_dispatch: # 允许你手动点按钮运行
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run AI script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py
+      - name: Push results
+        run: |
+          git config --global user.name "Robot"
+          git config --global user.email "bot@github.com"
+          git add data.json
+          git commit -m "Updated by AI" || exit 0
+          git push
