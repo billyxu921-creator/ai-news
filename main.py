@@ -4,12 +4,21 @@ import json
 from datetime import datetime
 import os
 
-# 1. 配置 Gemini (适配本地和 GitHub Actions)
-# 逻辑：优先读取 GitHub 的“保险柜”(Secret)，如果没有则使用你提供的 Key 跑本地
-api_key = os.getenv("GEMINI_API_KEY") or "AIzaSyDQIjW5d7bcCFPuwKaBeH_9l_zHjbvmVV4"
 
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-flash')
+# 1. 配置 Gemini (增强型适配逻辑)
+def setup_gemini():
+    # 尝试从 GitHub Secrets 读取
+    api_key = os.getenv("GEMINI_API_KEY")
+
+    # 如果环境变量不存在、为空、或者长度明显不对，则使用备用硬编码 Key
+    if not api_key or len(api_key) < 10:
+        api_key = "AIzaSyDQIjW5d7bcCFPuwKaBeH_9l_zHjbvmVV4"
+
+    genai.configure(api_key=api_key)
+    return genai.GenerativeModel('gemini-1.5-flash')
+
+
+model = setup_gemini()
 
 
 def get_ai_summary(title, abstract):
@@ -25,15 +34,18 @@ def get_ai_summary(title, abstract):
     """
     try:
         response = model.generate_content(prompt)
-        return response.text
+        # 确保返回的是文本内容
+        if response and response.text:
+            return response.text
+        return "Gemini 返回内容为空，请检查 API 状态。"
     except Exception as e:
         print(f"Gemini 调用出错: {e}")
-        return "总结生成失败，请查看原文。"
+        return f"总结生成失败。错误信息: {str(e)[:50]}"
 
 
 def fetch_papers():
     """从 arXiv 抓取最新 AI 论文并保存"""
-    # 搜索最新的 AI 论文 (cs.AI = 人工智能, cs.LG = 机器学习)
+    print("开始抓取 arXiv 论文...")
     search = arxiv.Search(
         query="cat:cs.AI OR cat:cs.LG",
         max_results=5,
@@ -41,11 +53,11 @@ def fetch_papers():
     )
 
     papers_data = []
-    print("正在搬运论文并请求 Gemini 总结，请稍候...")
 
     for result in search.results():
+        print(f"正在处理: {result.title[:30]}...")
         summary_text = get_ai_summary(result.title, result.summary)
-        # 这里的键名 (Key) 必须和 index.html 里的 JavaScript 对应
+
         papers_data.append({
             "title": result.title,
             "link": result.pdf_url,
@@ -56,16 +68,16 @@ def fetch_papers():
             "date": str(result.published.date())
         })
 
-    # 封装最终 JSON 格式
+    # 封装最终 JSON 格式 (确保与 index.html 的字段匹配)
     output = {
-        "update_time": str(datetime.now().strftime("%Y-%m-%d %H:%M")),
+        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "last_updated": datetime.now().strftime("%Y-%m-%d"),  # 兼容你 HTML 里的旧字段
         "papers": papers_data
     }
 
-    # 写入文件
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=4)
-    print("✨ 数据更新成功！生成了 data.json")
+    print("✨ data.json 更新成功！")
 
 
 if __name__ == "__main__":
