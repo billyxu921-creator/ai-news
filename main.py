@@ -15,7 +15,7 @@ def setup_gemini():
         api_key = "AIzaSyDQIjW5d7bcCFPuwKaBeH_9l_zHjbvmVV4"
 
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-1.5-flash-latest')
+    return genai.GenerativeModel('gemini-1.5-flash')
 
 
 model = setup_gemini()
