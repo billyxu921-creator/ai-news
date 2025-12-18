@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 # 直接在这里填入你新申请的 API Key，不要用变量读取了
-API_KEY = "这里填入你刚才在AI_Studio申请的新Key"
+API_KEY = "AIzaSyDAYW4cqZ5ZGCmabBFx6BuoPDhQgVP3gOw"
 
 def get_ai_summary(title, abstract):
     genai.configure(api_key=API_KEY)
