@@ -2,87 +2,40 @@ import arxiv
 import google.generativeai as genai
 import json
 from datetime import datetime
-import os
 
-# 1. 配置 Gemini (自动选择最稳健的模型名称)
-def setup_gemini():
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key or len(api_key) < 10:
-        api_key = "AIzaSyDAYW4cqZ5ZGCmabBFx6BuoPDhQgVP3gOw"
-    
-    genai.configure(api_key=api_key)
-    
-    # 我们先尝试标准名称，并在后面增加 fallback 逻辑
-    return genai.GenerativeModel('gemini-1.5-flash')
-
-model = setup_gemini()
+# 直接在这里填入你新申请的 API Key，不要用变量读取了
+API_KEY = "这里填入你刚才在AI_Studio申请的新Key"
 
 def get_ai_summary(title, abstract):
-    """调用 Gemini 生成中文总结，带失败重试逻辑"""
-    prompt = f"""
-    请作为AI领域专家，用中文分析这篇论文：
-    1. 【核心目标】：一句话概括。
-    2. 【技术路径】：详细说明核心方法。
-    3. 【创新亮点】：列出3个深度贡献。
+    genai.configure(api_key=API_KEY)
+    # 强制指定 v1beta 版本以确保 1.5-flash 可用
+    model = genai.GenerativeModel('gemini-1.5-flash')
     
-    论文标题: {title}
-    摘要: {abstract}
-    """
+    prompt = f"请用中文总结这篇论文的核心贡献：标题：{title}，摘要：{abstract}"
     
-    # 尝试多个可能的模型 ID
-    models_to_try =[
-        'models/gemini-1.5-flash', 
-        'models/gemini-1.5-pro', 
-        'gemini-1.5-flash'
-    ]
-    
-    last_error = ""
-    for model_name in models_to_try:
-        try:
-            current_model = genai.GenerativeModel(model_name)
-            response = current_model.generate_content(prompt)
-            if response and response.text:
-                return response.text
-        except Exception as e:
-            last_error = str(e)
-            continue # 如果当前模型报 404，尝试列表中的下一个
-            
-    return f"总结生成失败。最后一次尝试报错: {last_error[:50]}"
+    try:
+        response = model.generate_content(prompt)
+        return response.text if response.text else "总结生成失败"
+    except Exception as e:
+        return f"AI调用报错: {str(e)}"
 
-def fetch_papers():
-    """从 arXiv 抓取最新 AI 论文"""
-    print("开始抓取论文...")
-    search = arxiv.Search(
-        query = "cat:cs.AI OR cat:cs.LG",
-        max_results = 5,
-        sort_by = arxiv.SortCriterion.SubmittedDate
-    )
+def run():
+    print("开始获取论文...")
+    search = arxiv.Search(query="cat:cs.AI", max_results=3, sort_by=arxiv.SortCriterion.SubmittedDate)
     
-    papers_data = []
-    for result in search.results():
-        print(f"处理中: {result.title[:30]}")
-        summary_text = get_ai_summary(result.title, result.summary)
-        
-        papers_data.append({
-            "title": result.title,
-            "link": result.pdf_url,
-            "authors": ", ".join(author.name for author in result.authors[:3]),
-            "ai_summary": summary_text,
-            "category": "Artificial Intelligence",
-            "id": result.entry_id.split('/')[-1],
-            "date": str(result.published.date())
+    results = []
+    for p in search.results():
+        results.append({
+            "title": p.title,
+            "link": p.pdf_url,
+            "ai_summary": get_ai_summary(p.title, p.summary),
+            "date": str(p.published.date())
         })
     
-    output = {
-        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "last_updated": datetime.now().strftime("%Y-%m-%d"),
-        "papers": papers_data
-    }
-    
+    data = {"update_time": datetime.now().strftime("%Y-%m-%d"), "papers": results}
     with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(output, f, ensure_ascii=False, indent=4)
-    print("✨ data.json 更新成功！")
+        json.dump(data, f, ensure_ascii=False, indent=4)
+    print("更新完成！")
 
 if __name__ == "__main__":
-    fetch_papers()
-    fetch_papers()
+    run()
