@@ -1,50 +1,22 @@
 {
-    "update_time": "2025-12-18 05:10",
-    "last_updated": "2025-12-18",
+    "update_time": "2025-12-18",
     "papers": [
         {
             "title": "Spatia: Video Generation with Updatable Spatial Memory",
             "link": "https://arxiv.org/pdf/2512.15716v1",
-            "authors": "Jinjing Zhao, Fangyun Wei, Zhening Liu",
-            "ai_summary": "总结生成失败。最后一次尝试报错: 404 models/gemini-1.5-flash is not found for API v",
-            "category": "Artificial Intelligence",
-            "id": "2512.15716v1",
+            "ai_summary": "AI调用报错: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
             "date": "2025-12-17"
         },
         {
             "title": "Predictive Concept Decoders: Training Scalable End-to-End Interpretability Assistants",
             "link": "https://arxiv.org/pdf/2512.15712v1",
-            "authors": "Vincent Huang, Dami Choi, Daniel D. Johnson",
-            "ai_summary": "总结生成失败。最后一次尝试报错: 404 models/gemini-1.5-flash is not found for API v",
-            "category": "Artificial Intelligence",
-            "id": "2512.15712v1",
+            "ai_summary": "AI调用报错: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
             "date": "2025-12-17"
         },
         {
             "title": "Artism: AI-Driven Dual-Engine System for Art Generation and Critique",
             "link": "https://arxiv.org/pdf/2512.15710v1",
-            "authors": "Shuai Liu, Yiqing Tian, Yang Chen",
-            "ai_summary": "总结生成失败。最后一次尝试报错: 404 models/gemini-1.5-flash is not found for API v",
-            "category": "Artificial Intelligence",
-            "id": "2512.15710v1",
-            "date": "2025-12-17"
-        },
-        {
-            "title": "Learning Model Parameter Dynamics in a Combination Therapy for Bladder Cancer from Sparse Biological Data",
-            "link": "https://arxiv.org/pdf/2512.15706v1",
-            "authors": "Kayode Olumoyin, Lamees El Naqa, Katarzyna Rejniak",
-            "ai_summary": "总结生成失败。最后一次尝试报错: 404 models/gemini-1.5-flash is not found for API v",
-            "category": "Artificial Intelligence",
-            "id": "2512.15706v1",
-            "date": "2025-12-17"
-        },
-        {
-            "title": "Dynamic Rebatching for Efficient Early-Exit Inference with DREX",
-            "link": "https://arxiv.org/pdf/2512.15705v1",
-            "authors": "Xuting Liu, Daniel Alexander, Siva Kesava Reddy Kakarla",
-            "ai_summary": "总结生成失败。最后一次尝试报错: 404 models/gemini-1.5-flash is not found for API v",
-            "category": "Artificial Intelligence",
-            "id": "2512.15705v1",
+            "ai_summary": "AI调用报错: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
             "date": "2025-12-17"
         }
     ]
