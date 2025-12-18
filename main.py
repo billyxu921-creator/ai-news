@@ -30,7 +30,11 @@ def get_ai_summary(title, abstract):
     """
     
     # 尝试多个可能的模型 ID
-    models_to_try = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+    models_to_try =[
+        'models/gemini-1.5-flash', 
+        'models/gemini-1.5-pro', 
+        'gemini-1.5-flash'
+    ]
     
     last_error = ""
     for model_name in models_to_try:
