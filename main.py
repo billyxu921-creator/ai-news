@@ -15,7 +15,7 @@ def setup_gemini():
         api_key = "AIzaSyDQIjW5d7bcCFPuwKaBeH_9l_zHjbvmVV4"
 
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-1.5-flash')
+    return genai.GenerativeModel('gemini-1.5-flash-latest')
 
 
 model = setup_gemini()
@@ -24,13 +24,18 @@ model = setup_gemini()
 def get_ai_summary(title, abstract):
     """调用 Gemini 生成中文总结"""
     prompt = f"""
-    请作为AI领域专家，用中文分析这篇论文并输出：
-    1. Summary（一句话概括论文目的）
-    2. Methods（核心方法）
-    3. 核心创新点（请用3个简短的列表符号展示）
-
-    论文标题: {title}
+    你现在是一名顶尖的 AI 科学家。请深度分析以下论文标题和摘要，并用中文提供高质量总结。
+    
+    要求：
+    1. 【核心目标】：用一句话精准描述该研究解决了什么痛点，不要翻译，要解读。
+    2. 【技术路径】：详细说明其使用了什么模型、算法或数学方法（如：Transformer, Diffusions, LoRA等）。
+    3. 【创新亮点】：列出该论文最显著的3个贡献，必须具有学术深度。
+    
+    待处理论文：
+    标题: {title}
     摘要: {abstract}
+    
+    请直接输出内容，不要包含任何多余的开场白
     """
     try:
         response = model.generate_content(prompt)
