@@ -1,41 +1,66 @@
 import arxiv
-import google.generativeai as genai
 import json
 from datetime import datetime
+import requests  # DeepSeek 使用简单的 requests 即可
 
-# 直接在这里填入你新申请的 API Key，不要用变量读取了
-API_KEY = "AIzaSyDAYW4cqZ5ZGCmabBFx6BuoPDhQgVP3gOw"
+# 1. 配置 DeepSeek (请填入你的 API Key)
+DEEPSEEK_API_KEY = "sk-7a870ec1ad6f4db2bb6b1169f8c8bd37"
 
 def get_ai_summary(title, abstract):
-    genai.configure(api_key=API_KEY)
-    # 强制指定 v1beta 版本以确保 1.5-flash 可用
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    """调用 DeepSeek 生成中文总结"""
+    url = "https://api.deepseek.com/chat/completions"
     
-    prompt = f"请用中文总结这篇论文的核心贡献：标题：{title}，摘要：{abstract}"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}"
+    }
     
-    try:
-        response = model.generate_content(prompt)
-        return response.text if response.text else "总结生成失败"
-    except Exception as e:
-        return f"AI调用报错: {str(e)}"
+    payload = {
+        "model": "deepseek-chat", # 或者使用 deepseek-reasoner (R1模型)
+        "messages": [
+            {"role": "system", "content": "你是一个AI论文专家，请用中文简洁总结论文的核心贡献。"},
+            {"role": "user", "content": f"标题: {title}\n摘要: {abstract}"}
+        ],
+        "stream": False
+    }
 
-def run():
-    print("开始获取论文...")
-    search = arxiv.Search(query="cat:cs.AI", max_results=3, sort_by=arxiv.SortCriterion.SubmittedDate)
+    try:
+        response = requests.post(url, headers=headers, json=payload, timeout=20)
+        res_json = response.json()
+        return res_json['choices'][0]['message']['content']
+    except Exception as e:
+        return f"DeepSeek 调用失败: {str(e)}"
+
+def fetch_papers():
+    print("开始从 arXiv 抓取论文...")
+    search = arxiv.Search(
+        query = "cat:cs.AI OR cat:cs.LG",
+        max_results = 5,
+        sort_by = arxiv.SortCriterion.SubmittedDate
+    )
     
-    results = []
-    for p in search.results():
-        results.append({
-            "title": p.title,
-            "link": p.pdf_url,
-            "ai_summary": get_ai_summary(p.title, p.summary),
-            "date": str(p.published.date())
+    papers_data = []
+    for result in search.results():
+        print(f"总结中: {result.title[:30]}...")
+        summary_text = get_ai_summary(result.title, result.summary)
+        
+        papers_data.append({
+            "title": result.title,
+            "link": result.pdf_url,
+            "authors": ", ".join(author.name for author in result.authors[:3]),
+            "ai_summary": summary_text,
+            "category": "AI & Machine Learning",
+            "date": str(result.published.date())
         })
     
-    data = {"update_time": datetime.now().strftime("%Y-%m-%d"), "papers": results}
+    output = {
+        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "papers": papers_data
+    }
+    
     with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    print("更新完成！")
+        json.dump(output, f, ensure_ascii=False, indent=4)
+    print("✨ data.json 更新成功！")
 
 if __name__ == "__main__":
-    run()
+    fetch_papers()
