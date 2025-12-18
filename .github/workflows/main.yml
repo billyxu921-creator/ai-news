@@ -23,6 +23,6 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions[bot]"
           git add data.json
-          git commit -m "Update papers" || echo "No changes to commit"
-          git pull --rebase origin main  # 关键：先拉取远程更改，防止推送冲突
-          git push
+          git commit -m "Update papers by AI" || echo "No changes to commit"
+          # 放弃 rebase，改用强制推送到 main 分支，解决冲突报错
+          git push origin main --force
