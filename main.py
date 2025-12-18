@@ -8,7 +8,7 @@ import os
 def setup_gemini():
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key or len(api_key) < 10:
-        api_key = "AIzaSyDQIjW5d7bcCFPuwKaBeH_9l_zHjbvmVV4"
+        api_key = "AIzaSyDAYW4cqZ5ZGCmabBFx6BuoPDhQgVP3gOw"
     
     genai.configure(api_key=api_key)
     
