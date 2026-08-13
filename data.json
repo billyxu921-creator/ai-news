@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-12 03:16",
+    "update_time": "2026-08-13 03:21",
     "papers": [
         {
-            "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
-            "link": "https://arxiv.org/pdf/2608.11204v1",
+            "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+            "link": "https://arxiv.org/pdf/2608.12308v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-11"
+            "date": "2026-08-12"
         },
         {
-            "title": "ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls",
-            "link": "https://arxiv.org/pdf/2608.11200v1",
+            "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+            "link": "https://arxiv.org/pdf/2608.12307v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-11"
+            "date": "2026-08-12"
         },
         {
-            "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
-            "link": "https://arxiv.org/pdf/2608.11197v1",
+            "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+            "link": "https://arxiv.org/pdf/2608.12306v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-11"
+            "date": "2026-08-12"
         }
     ]
 }
