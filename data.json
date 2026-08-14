@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-13 03:21",
+    "update_time": "2026-08-14 03:18",
     "papers": [
         {
-            "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
-            "link": "https://arxiv.org/pdf/2608.12308v1",
+            "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+            "link": "https://arxiv.org/pdf/2608.13560v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-12"
+            "date": "2026-08-13"
         },
         {
-            "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
-            "link": "https://arxiv.org/pdf/2608.12307v1",
+            "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+            "link": "https://arxiv.org/pdf/2608.13558v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-12"
+            "date": "2026-08-13"
         },
         {
-            "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
-            "link": "https://arxiv.org/pdf/2608.12306v1",
+            "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+            "link": "https://arxiv.org/pdf/2608.13555v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-12"
+            "date": "2026-08-13"
         }
     ]
 }
