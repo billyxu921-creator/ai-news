@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-16 02:14",
+    "update_time": "2026-08-17 02:11",
     "papers": [
         {
-            "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-            "link": "https://arxiv.org/pdf/2608.13560v1",
+            "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+            "link": "https://arxiv.org/pdf/2608.14539v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-13"
+            "date": "2026-08-14"
         },
         {
-            "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-            "link": "https://arxiv.org/pdf/2608.13558v1",
+            "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+            "link": "https://arxiv.org/pdf/2608.14530v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-13"
+            "date": "2026-08-14"
         },
         {
-            "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
-            "link": "https://arxiv.org/pdf/2608.13555v1",
+            "title": "Handover of In-Context Learning State Across Session Boundaries",
+            "link": "https://arxiv.org/pdf/2608.14528v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-13"
+            "date": "2026-08-14"
         }
     ]
 }
