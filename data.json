@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-18 02:08",
+    "update_time": "2026-08-19 02:10",
     "papers": [
         {
-            "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
-            "link": "https://arxiv.org/pdf/2608.16889v1",
+            "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
+            "link": "https://arxiv.org/pdf/2608.18076v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-17"
+            "date": "2026-08-18"
         },
         {
-            "title": "Q-based Variational Inverse Reinforcement Learning",
-            "link": "https://arxiv.org/pdf/2608.16888v1",
+            "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+            "link": "https://arxiv.org/pdf/2608.18066v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-17"
+            "date": "2026-08-18"
         },
         {
-            "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-            "link": "https://arxiv.org/pdf/2608.16884v1",
+            "title": "TokEval: A Tokenizer Evaluation Suite",
+            "link": "https://arxiv.org/pdf/2608.18062v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-17"
+            "date": "2026-08-18"
         }
     ]
 }
