@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-19 02:10",
+    "update_time": "2026-08-20 02:11",
     "papers": [
         {
-            "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
-            "link": "https://arxiv.org/pdf/2608.18076v1",
+            "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+            "link": "https://arxiv.org/pdf/2608.19197v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-18"
+            "date": "2026-08-19"
         },
         {
-            "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-            "link": "https://arxiv.org/pdf/2608.18066v1",
+            "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+            "link": "https://arxiv.org/pdf/2608.19182v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-18"
+            "date": "2026-08-19"
         },
         {
-            "title": "TokEval: A Tokenizer Evaluation Suite",
-            "link": "https://arxiv.org/pdf/2608.18062v1",
+            "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+            "link": "https://arxiv.org/pdf/2608.19181v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-18"
+            "date": "2026-08-19"
         }
     ]
 }
