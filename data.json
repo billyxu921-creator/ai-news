@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-24 02:15",
+    "update_time": "2026-08-25 02:10",
     "papers": [
         {
-            "title": "Primal Acceleration of Newton's Method",
-            "link": "https://arxiv.org/pdf/2608.21359v1",
+            "title": "How to Train a Critic Stably and Efficiently",
+            "link": "https://arxiv.org/pdf/2608.23566v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-21"
+            "date": "2026-08-24"
         },
         {
-            "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
-            "link": "https://arxiv.org/pdf/2608.21357v1",
+            "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+            "link": "https://arxiv.org/pdf/2608.23565v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-21"
+            "date": "2026-08-24"
         },
         {
-            "title": "AI with Authority, from Application to Silicon",
-            "link": "https://arxiv.org/pdf/2608.21356v1",
+            "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+            "link": "https://arxiv.org/pdf/2608.23564v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-21"
+            "date": "2026-08-24"
         }
     ]
 }
