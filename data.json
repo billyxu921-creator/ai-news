@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-25 02:10",
+    "update_time": "2026-08-26 02:17",
     "papers": [
         {
-            "title": "How to Train a Critic Stably and Efficiently",
-            "link": "https://arxiv.org/pdf/2608.23566v1",
+            "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+            "link": "https://arxiv.org/pdf/2608.24881v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-24"
+            "date": "2026-08-25"
         },
         {
-            "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-            "link": "https://arxiv.org/pdf/2608.23565v1",
+            "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+            "link": "https://arxiv.org/pdf/2608.24876v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-24"
+            "date": "2026-08-25"
         },
         {
-            "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
-            "link": "https://arxiv.org/pdf/2608.23564v1",
+            "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+            "link": "https://arxiv.org/pdf/2608.24870v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-24"
+            "date": "2026-08-25"
         }
     ]
 }
