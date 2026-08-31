@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-08-30 06:01",
+    "update_time": "2026-08-31 06:21",
     "papers": [
         {
-            "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-            "link": "https://arxiv.org/pdf/2608.27454v1",
+            "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
+            "link": "https://arxiv.org/pdf/2608.28589v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-27"
+            "date": "2026-08-28"
         },
         {
-            "title": "SWE-Prime: Fewer Trajectories, Better Performance",
-            "link": "https://arxiv.org/pdf/2608.27449v1",
+            "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+            "link": "https://arxiv.org/pdf/2608.28578v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-27"
+            "date": "2026-08-28"
         },
         {
-            "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-            "link": "https://arxiv.org/pdf/2608.27442v1",
+            "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+            "link": "https://arxiv.org/pdf/2608.28576v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-27"
+            "date": "2026-08-28"
         }
     ]
 }
