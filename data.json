@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-01 05:49",
+    "update_time": "2026-09-02 05:12",
     "papers": [
         {
-            "title": "Constant Individual Regret in General Games",
-            "link": "https://arxiv.org/pdf/2608.31166v1",
+            "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+            "link": "https://arxiv.org/pdf/2609.01604v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
         },
         {
-            "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
-            "link": "https://arxiv.org/pdf/2608.31167v1",
+            "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+            "link": "https://arxiv.org/pdf/2609.01603v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
         },
         {
-            "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
-            "link": "https://arxiv.org/pdf/2608.31157v1",
+            "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+            "link": "https://arxiv.org/pdf/2609.01601v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-08-31"
+            "date": "2026-09-01"
         }
     ]
 }
