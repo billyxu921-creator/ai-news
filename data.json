@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-03 05:16",
+    "update_time": "2026-09-04 05:11",
     "papers": [
         {
-            "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-            "link": "https://arxiv.org/pdf/2609.02887v1",
+            "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+            "link": "https://arxiv.org/pdf/2609.04199v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-02"
+            "date": "2026-09-03"
         },
         {
-            "title": "Discriminative World Models for Web Agents",
-            "link": "https://arxiv.org/pdf/2609.02885v1",
+            "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+            "link": "https://arxiv.org/pdf/2609.04198v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-02"
+            "date": "2026-09-03"
         },
         {
-            "title": "Graph Machine: Towards Better Pretraining via Edges",
-            "link": "https://arxiv.org/pdf/2609.02881v1",
+            "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+            "link": "https://arxiv.org/pdf/2609.04197v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-02"
+            "date": "2026-09-03"
         }
     ]
 }
