@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-06 05:14",
+    "update_time": "2026-09-07 05:23",
     "papers": [
         {
-            "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-            "link": "https://arxiv.org/pdf/2609.04199v1",
+            "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+            "link": "https://arxiv.org/pdf/2609.05415v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-03"
+            "date": "2026-09-04"
         },
         {
-            "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-            "link": "https://arxiv.org/pdf/2609.04198v1",
+            "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+            "link": "https://arxiv.org/pdf/2609.05404v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-03"
+            "date": "2026-09-04"
         },
         {
-            "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
-            "link": "https://arxiv.org/pdf/2609.04197v1",
+            "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+            "link": "https://arxiv.org/pdf/2609.05403v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-03"
+            "date": "2026-09-04"
         }
     ]
 }
