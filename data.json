@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-08 05:24",
+    "update_time": "2026-09-09 05:28",
     "papers": [
         {
-            "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
-            "link": "https://arxiv.org/pdf/2609.05415v1",
+            "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+            "link": "https://arxiv.org/pdf/2609.09158v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-04"
+            "date": "2026-09-08"
         },
         {
-            "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
-            "link": "https://arxiv.org/pdf/2609.05404v1",
+            "title": "Learning Length-Extrapolatable Recurrent Models",
+            "link": "https://arxiv.org/pdf/2609.09157v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-04"
+            "date": "2026-09-08"
         },
         {
-            "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
-            "link": "https://arxiv.org/pdf/2609.05403v1",
+            "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+            "link": "https://arxiv.org/pdf/2609.09153v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-04"
+            "date": "2026-09-08"
         }
     ]
 }
