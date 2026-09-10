@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-09 05:28",
+    "update_time": "2026-09-10 05:24",
     "papers": [
         {
-            "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-            "link": "https://arxiv.org/pdf/2609.09158v1",
+            "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
+            "link": "https://arxiv.org/pdf/2609.10534v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-08"
+            "date": "2026-09-09"
         },
         {
-            "title": "Learning Length-Extrapolatable Recurrent Models",
-            "link": "https://arxiv.org/pdf/2609.09157v1",
+            "title": "A positive resolution of the gap-entropy conjecture",
+            "link": "https://arxiv.org/pdf/2609.10529v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-08"
+            "date": "2026-09-09"
         },
         {
-            "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-            "link": "https://arxiv.org/pdf/2609.09153v1",
+            "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
+            "link": "https://arxiv.org/pdf/2609.10525v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-08"
+            "date": "2026-09-09"
         }
     ]
 }
