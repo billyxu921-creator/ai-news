@@ -1,5 +1,5 @@
 {
-    "update_time": "2026-09-11 05:22",
+    "update_time": "2026-09-12 05:13",
     "papers": [
         {
             "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
