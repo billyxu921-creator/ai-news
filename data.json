@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-12 05:13",
+    "update_time": "2026-09-15 05:32",
     "papers": [
         {
-            "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-            "link": "https://arxiv.org/pdf/2609.11923v1",
+            "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+            "link": "https://arxiv.org/pdf/2609.15989v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-10"
+            "date": "2026-09-14"
         },
         {
-            "title": "General Quantification of Covariate and Concept Shifts",
-            "link": "https://arxiv.org/pdf/2609.11918v1",
+            "title": "Bellman Policy Optimization",
+            "link": "https://arxiv.org/pdf/2609.15987v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-10"
+            "date": "2026-09-14"
         },
         {
-            "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-            "link": "https://arxiv.org/pdf/2609.11917v1",
+            "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+            "link": "https://arxiv.org/pdf/2609.15983v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-10"
+            "date": "2026-09-14"
         }
     ]
 }
