@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-16 05:25",
+    "update_time": "2026-09-17 05:33",
     "papers": [
         {
-            "title": "Agentic Societies Need a Social Harness",
-            "link": "https://arxiv.org/pdf/2609.17527v1",
+            "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+            "link": "https://arxiv.org/pdf/2609.19145v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-15"
+            "date": "2026-09-16"
         },
         {
-            "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-            "link": "https://arxiv.org/pdf/2609.17523v1",
+            "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+            "link": "https://arxiv.org/pdf/2609.19144v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-15"
+            "date": "2026-09-16"
         },
         {
-            "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-            "link": "https://arxiv.org/pdf/2609.17521v1",
+            "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+            "link": "https://arxiv.org/pdf/2609.19137v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-15"
+            "date": "2026-09-16"
         }
     ]
 }
