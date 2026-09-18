@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-17 05:33",
+    "update_time": "2026-09-18 05:21",
     "papers": [
         {
-            "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-            "link": "https://arxiv.org/pdf/2609.19145v1",
+            "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+            "link": "https://arxiv.org/pdf/2609.20822v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-16"
+            "date": "2026-09-17"
         },
         {
-            "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-            "link": "https://arxiv.org/pdf/2609.19144v1",
+            "title": "Embedding Models Measure in Peculiar Ways",
+            "link": "https://arxiv.org/pdf/2609.20821v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-16"
+            "date": "2026-09-17"
         },
         {
-            "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-            "link": "https://arxiv.org/pdf/2609.19137v1",
+            "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+            "link": "https://arxiv.org/pdf/2609.20820v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-16"
+            "date": "2026-09-17"
         }
     ]
 }
