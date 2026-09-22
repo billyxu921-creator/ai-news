@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-21 05:36",
+    "update_time": "2026-09-22 05:33",
     "papers": [
         {
-            "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-            "link": "https://arxiv.org/pdf/2609.22086v1",
+            "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+            "link": "https://arxiv.org/pdf/2609.25001v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-18"
+            "date": "2026-09-21"
         },
         {
-            "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-            "link": "https://arxiv.org/pdf/2609.22068v1",
+            "title": "Critical-State RL: Diagnosing Trainable States for Multi-Turn Tool Use",
+            "link": "https://arxiv.org/pdf/2609.24985v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-18"
+            "date": "2026-09-21"
         },
         {
-            "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
-            "link": "https://arxiv.org/pdf/2609.22067v1",
+            "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+            "link": "https://arxiv.org/pdf/2609.24984v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-18"
+            "date": "2026-09-21"
         }
     ]
 }
