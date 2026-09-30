@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-29 06:21",
+    "update_time": "2026-09-30 06:05",
     "papers": [
         {
-            "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-            "link": "https://arxiv.org/pdf/2609.35770v1",
+            "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+            "link": "https://arxiv.org/pdf/2609.38178v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-28"
+            "date": "2026-09-29"
         },
         {
-            "title": "Telescopic Language Models",
-            "link": "https://arxiv.org/pdf/2609.35769v1",
+            "title": "Breakdown of Local Denoising as Semantic Speciation",
+            "link": "https://arxiv.org/pdf/2609.38176v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-28"
+            "date": "2026-09-29"
         },
         {
-            "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
-            "link": "https://arxiv.org/pdf/2609.35768v1",
+            "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+            "link": "https://arxiv.org/pdf/2609.38169v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-28"
+            "date": "2026-09-29"
         }
     ]
 }
