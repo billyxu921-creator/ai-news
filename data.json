@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-09-30 06:05",
+    "update_time": "2026-10-01 06:39",
     "papers": [
         {
-            "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-            "link": "https://arxiv.org/pdf/2609.38178v1",
+            "title": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+            "link": "https://arxiv.org/pdf/2609.40361v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-29"
+            "date": "2026-09-30"
         },
         {
-            "title": "Breakdown of Local Denoising as Semantic Speciation",
-            "link": "https://arxiv.org/pdf/2609.38176v1",
+            "title": "Semifactual Credit-Augmented Policy Optimization",
+            "link": "https://arxiv.org/pdf/2609.40360v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-29"
+            "date": "2026-09-30"
         },
         {
-            "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-            "link": "https://arxiv.org/pdf/2609.38169v1",
+            "title": "Removing Timing Shortcuts Improves Non-Invasive Brain-to-Text",
+            "link": "https://arxiv.org/pdf/2609.40359v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-09-29"
+            "date": "2026-09-30"
         }
     ]
 }
