@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-04 06:30",
+    "update_time": "2026-10-05 06:22",
     "papers": [
         {
-            "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-            "link": "https://arxiv.org/pdf/2610.02207v1",
+            "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+            "link": "https://arxiv.org/pdf/2610.03717v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-01"
+            "date": "2026-10-02"
         },
         {
-            "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-            "link": "https://arxiv.org/pdf/2610.02206v1",
+            "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+            "link": "https://arxiv.org/pdf/2610.03715v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-01"
+            "date": "2026-10-02"
         },
         {
-            "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-            "link": "https://arxiv.org/pdf/2610.02204v1",
+            "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+            "link": "https://arxiv.org/pdf/2610.03713v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-01"
+            "date": "2026-10-02"
         }
     ]
 }
