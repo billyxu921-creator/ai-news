@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-06 06:58",
+    "update_time": "2026-10-07 06:39",
     "papers": [
         {
-            "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
-            "link": "https://arxiv.org/pdf/2610.06852v1",
+            "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+            "link": "https://arxiv.org/pdf/2610.08789v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-05"
+            "date": "2026-10-06"
         },
         {
-            "title": "Base Models Can Reason By Taking a Cue From Training Data",
-            "link": "https://arxiv.org/pdf/2610.06851v1",
+            "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+            "link": "https://arxiv.org/pdf/2610.08785v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-05"
+            "date": "2026-10-06"
         },
         {
-            "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
-            "link": "https://arxiv.org/pdf/2610.06846v1",
+            "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+            "link": "https://arxiv.org/pdf/2610.08782v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-05"
+            "date": "2026-10-06"
         }
     ]
 }
