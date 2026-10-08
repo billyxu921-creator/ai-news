@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-07 06:39",
+    "update_time": "2026-10-08 06:45",
     "papers": [
         {
-            "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
-            "link": "https://arxiv.org/pdf/2610.08789v1",
+            "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+            "link": "https://arxiv.org/pdf/2610.10538v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-06"
+            "date": "2026-10-07"
         },
         {
-            "title": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
-            "link": "https://arxiv.org/pdf/2610.08785v1",
+            "title": "Decoupling Exploration from Optimization in RLVR",
+            "link": "https://arxiv.org/pdf/2610.10536v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-06"
+            "date": "2026-10-07"
         },
         {
-            "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-            "link": "https://arxiv.org/pdf/2610.08782v1",
+            "title": "Long-WAM: Scaling the Context of World-Action Models",
+            "link": "https://arxiv.org/pdf/2610.10528v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-06"
+            "date": "2026-10-07"
         }
     ]
 }
