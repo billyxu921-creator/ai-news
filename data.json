@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-08 06:45",
+    "update_time": "2026-10-09 06:53",
     "papers": [
         {
-            "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
-            "link": "https://arxiv.org/pdf/2610.10538v1",
+            "title": "CSF: Contextual Safety Filtering for Motion Generators",
+            "link": "https://arxiv.org/pdf/2610.12467v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-07"
+            "date": "2026-10-08"
         },
         {
-            "title": "Decoupling Exploration from Optimization in RLVR",
-            "link": "https://arxiv.org/pdf/2610.10536v1",
+            "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+            "link": "https://arxiv.org/pdf/2610.12466v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-07"
+            "date": "2026-10-08"
         },
         {
-            "title": "Long-WAM: Scaling the Context of World-Action Models",
-            "link": "https://arxiv.org/pdf/2610.10528v1",
+            "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+            "link": "https://arxiv.org/pdf/2610.12465v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-07"
+            "date": "2026-10-08"
         }
     ]
 }
