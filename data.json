@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-13 07:11",
+    "update_time": "2026-10-14 05:34",
     "papers": [
         {
-            "title": "Can Language Models Play the Wikipedia Game?",
-            "link": "https://arxiv.org/pdf/2610.13948v1",
+            "title": "ChunkAct: Action Chunking for Agentic Robotics",
+            "link": "https://arxiv.org/pdf/2610.18874v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-09"
+            "date": "2026-10-13"
         },
         {
-            "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-            "link": "https://arxiv.org/pdf/2610.13935v1",
+            "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+            "link": "https://arxiv.org/pdf/2610.18871v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-09"
+            "date": "2026-10-13"
         },
         {
-            "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
-            "link": "https://arxiv.org/pdf/2610.13931v1",
+            "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+            "link": "https://arxiv.org/pdf/2610.18869v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-09"
+            "date": "2026-10-13"
         }
     ]
 }
