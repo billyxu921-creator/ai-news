@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-15 05:22",
+    "update_time": "2026-10-16 05:14",
     "papers": [
         {
-            "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-            "link": "https://arxiv.org/pdf/2610.20606v1",
+            "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+            "link": "https://arxiv.org/pdf/2610.22372v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-14"
+            "date": "2026-10-15"
         },
         {
-            "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-            "link": "https://arxiv.org/pdf/2610.20607v1",
+            "title": "Discovering state-of-the-art quantum circuits with large language models",
+            "link": "https://arxiv.org/pdf/2610.22367v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-14"
+            "date": "2026-10-15"
         },
         {
-            "title": "Co-Evolving Acting and Forecasting for Language Agents",
-            "link": "https://arxiv.org/pdf/2610.20597v1",
+            "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+            "link": "https://arxiv.org/pdf/2610.22364v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-14"
+            "date": "2026-10-15"
         }
     ]
 }
