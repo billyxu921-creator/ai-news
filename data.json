@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-21 05:28",
+    "update_time": "2026-10-22 05:33",
     "papers": [
         {
-            "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-            "link": "https://arxiv.org/pdf/2610.28632v1",
+            "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+            "link": "https://arxiv.org/pdf/2610.30132v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-20"
+            "date": "2026-10-21"
         },
         {
-            "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
-            "link": "https://arxiv.org/pdf/2610.28629v1",
+            "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+            "link": "https://arxiv.org/pdf/2610.30128v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-20"
+            "date": "2026-10-21"
         },
         {
-            "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
-            "link": "https://arxiv.org/pdf/2610.28628v1",
+            "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
+            "link": "https://arxiv.org/pdf/2610.30125v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-20"
+            "date": "2026-10-21"
         }
     ]
 }
