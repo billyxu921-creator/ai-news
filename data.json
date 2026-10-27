@@ -1,23 +1,23 @@
 {
-    "update_time": "2026-10-26 05:31",
+    "update_time": "2026-10-27 05:46",
     "papers": [
         {
-            "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-            "link": "https://arxiv.org/pdf/2610.32978v1",
+            "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+            "link": "https://arxiv.org/pdf/2610.35868v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-23"
+            "date": "2026-10-26"
         },
         {
-            "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-            "link": "https://arxiv.org/pdf/2610.32971v1",
+            "title": "Center-of-Mass Interpretation of Evolution Strategies",
+            "link": "https://arxiv.org/pdf/2610.35865v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-23"
+            "date": "2026-10-26"
         },
         {
-            "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-            "link": "https://arxiv.org/pdf/2610.32969v1",
+            "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+            "link": "https://arxiv.org/pdf/2610.35866v1",
             "ai_summary": "总结失败。报错信息: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}",
-            "date": "2026-10-23"
+            "date": "2026-10-26"
         }
     ]
 }
